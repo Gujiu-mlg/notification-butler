@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 主色调 -->
+    <color name="brand">#2B4EFF</color>
+    <color name="brand_dark">#6E3AFF</color>
+    <color name="bg">#FFFFFF</color>
+    <color name="text_main">#16181D</color>
+    <color name="text_sub">#8A8F99</color>
+    <color name="divider">#F0F2F5</color>
+
+    <string name="app_name">通知管家</string>
+
+    <!-- 无 ActionBar 主题（标题由我们自己画，避免出现两条标题） -->
+    <style name="AppTheme"
+        parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/brand</item>
+        <item name="android:colorPrimaryDark">@color/brand</item>
+        <item name="android:colorAccent">@color/brand</item>
+        <item name="android:statusBarColor">@color/bg</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@color/bg</item>
+        <item name="android:windowBackground">@color/bg</item>
+    </style>
+
+</resources>
