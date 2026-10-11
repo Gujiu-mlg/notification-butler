@@ -70,7 +70,7 @@ Android 并不允许普通应用修改别的应用的通知开关 —— 那是�
 
 ## 安装
 
-从 [Releases](../../releases) 下载 APK 安装，或自行构建（见下）。
+从 [Releases](https://github.com/Gujiu-mlg/notification-butler/releases) 下载 APK 安装，或自行构建（见下）。
 
 首次启动需要授予**通知使用权**：
 
@@ -103,7 +103,7 @@ sdkmanager "build-tools;34.0.0" "platforms;android-34"
 ### 构建
 
 ```bash
-git clone <你的仓库地址>
+git clone https://github.com/Gujiu-mlg/notification-butler.git
 cd notification-butler
 
 # 方式一：环境变量
